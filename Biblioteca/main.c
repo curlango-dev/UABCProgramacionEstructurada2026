@@ -23,6 +23,12 @@ void procesarOperacion(int operacion) {
     switch (operacion) {
         case 2: agregarLibro();
             break;
+        case 5: consultarAcervo();
+            break;
+        case 1: consultarLibro();
+            break;
+        case 4: eliminarLibro();
+            break;
     }
 }
 void mostrarMenu() {

@@ -11,5 +11,9 @@ typedef struct  {
     char editorial[256];
     int id;
 } Libro;
+void mostrarLibro(Libro libro);
 void agregarLibro();
+void consultarAcervo();
+void consultarLibro();
+void eliminarLibro();
 #endif //ABCCARCHIVOSBINARIOS_BIBLIOTECA_H
